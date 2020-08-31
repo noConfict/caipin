@@ -1,0 +1,30 @@
+.baniner1{height: 460px;}
+.a_none a{text-decoration: none;}
+.content>p:first-child{
+	font-size: 18px;
+	color:#000;
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+} 
+.content>p:nth-child(2){
+	font-size:14px;
+	color:#999999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.content>p:nth-child(3){
+	font-size:21px;
+	 color:#999999;
+}
+.w-90{
+	width:90%;
+}
+.h-90{
+	height:90%;
+}
+
